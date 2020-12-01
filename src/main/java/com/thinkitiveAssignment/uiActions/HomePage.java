@@ -12,19 +12,19 @@ public class HomePage extends TestBase{
 	private WebElement searchTextBox;
 	@FindBy(xpath="(//input[@class='ui-searchbar-submit'])[1]")
 	private WebElement searchBtn;
-	
-	
+
+
 	public HomePage()
 	{
 		PageFactory.initElements(driver, this);
 	}
-	
-	
+
+
 	public SearchResultPage searchProduct(String product) throws InterruptedException
 	{
 		searchTextBox.sendKeys(product);
 		searchBtn.submit();
 		return new SearchResultPage();
 	}
-	
+
 }
