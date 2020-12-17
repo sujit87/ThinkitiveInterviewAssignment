@@ -15,14 +15,14 @@ Image Link 1 = //s.alicdn.com/@sc01/kf/H8f06d9277b904d23859861d14cc1134dj.jpg_30
 Seller Star Level = 4
 Image Link 2 = //s.alicdn.com/@sc01/kf/H796496d61bca45199a287df9a4bc2cf2w.jpg_300x300.jpg
 Product Title = WholeSale CHEAP ORIGINAL SECOND HAND MOBILE PHONES 6 7 plus 8 plus X XR 11 11 pro 11pro max for Iphone
-Seller Company Link = https://ixphone.en.alibaba.com/company_profile.html?spm=a2700.galleryofferlist.normal_offer.3.56b53345DAA3KV
+Seller Company Link = https://ixphone.en.alibaba.com/company_profile.html?spm=a2700.galleryofferlist.normal_offer.3.56b53345xyI7mx
 Text Below Product Title = CPU Octa Core
 Product Minimum order Quantity = 1.0 Pieces
 Slashed Product Price = N/A
-Seller Response Rate = 92.6%
-Seller Review Count = (30)
+Seller Response Rate = 86.7%
+Seller Review Count = (33)
 Product Image Count = 6
 Seller Contact Option = Chat with me
 Seller Years Of Association = 1YRS
-Seller Contact Link = https://message.alibaba.com/msgsend/contact.htm?spm=a2700.galleryofferlist.normal_offer.10.56b53345DAA3KV&action=contact_action&appForm=s_en&chkProductIds=62582731941&chkProductIds_f=IDX12D10aLxRj8M4Eno6LoNbvs1NmoMvdKjdDg7N9lpH9ze3LDmwxYjUkzdqNhKvBb4A&tracelog=contactOrg&mloca=main_en_search_list
+Seller Contact Link = https://message.alibaba.com/msgsend/contact.htm?spm=a2700.galleryofferlist.normal_offer.10.56b53345xyI7mx&action=contact_action&appForm=s_en&chkProductIds=62582731941&chkProductIds_f=IDX1uZ3UWI8OkvPSCRd3u4Hksh2a5d3JjGV1ORHJTe3ePBXnKoQM44rCFTQ2v1ci8XvE&tracelog=contactOrg&mloca=main_en_search_list
 Seller Status = Is Gold Seller

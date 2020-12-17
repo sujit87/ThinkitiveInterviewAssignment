@@ -39,8 +39,8 @@ public class SearchResultPage extends TestBase{
 					String[] productPrices = price.split("-");
 					for(int i=0;i<productPrices.length;i++)
 					{
-						if(Float.valueOf(productPrices[i].replaceAll("\\$", ""))>productPrice)
-							productPrice=Float.valueOf(productPrices[i].replaceAll("\\$", ""));
+						if(Float.valueOf(productPrices[i].replaceAll("[\\$,]", ""))>productPrice)
+							productPrice=Float.valueOf(productPrices[i].replaceAll("[\\$,]", ""));
 					}
 				}else
 				{

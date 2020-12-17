@@ -1,0 +1,6 @@
+com\thinkitiveAssignment\uiActions\SearchResultPage.class
+com\thinkitiveAssignment\uiActions\HomePage.class
+com\thinkitiveAssignment\testBase\TestBase.class
+com\thinkitiveAssignment\utils\DataMultiplier.class
+com\thinkitiveAssignment\utils\TextFileReader.class
+com\thinkitiveAssignment\utils\TextFileWriter.class

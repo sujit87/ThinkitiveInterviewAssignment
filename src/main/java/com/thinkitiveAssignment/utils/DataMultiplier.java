@@ -21,5 +21,22 @@ public class DataMultiplier {
 		
 		return resultString.toString();
 	}
+	
+	
+	public String[][] multiplyData(String[][] fileData, int multiplier)
+	{
+		String[][] multipliedData = new String[fileData.length][fileData[0].length];
+		for(int i=0;i<fileData.length;i++)
+		{
+			for(int j=0;j<fileData[i].length;j++)
+			{
+				int number = Integer.valueOf(fileData[i][j]);
+				multipliedData[i][j] = String.valueOf(number*multiplier);
+				System.out.println(multipliedData[i][j]);
+			}
+		}
+		
+		return multipliedData;
+	}
 
 }

@@ -38,5 +38,19 @@ public class TextFileWriter {
 		fw.close();//closing fileWriter
 	}
 	
+	public void writeFile(String[][] fileData) throws IOException
+	{
+		for(int i=0;i<fileData.length;i++ )
+		{
+			for(int j=0; j<fileData[i].length;j++)
+			{
+				fw.write(fileData[i][j]+"|");
+			}
+			if(i<fileData.length-1)
+			fw.write("\n");
+		}
+		fw.flush();
+	}
+	
 
 }

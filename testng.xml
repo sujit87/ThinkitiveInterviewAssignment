@@ -5,6 +5,7 @@
     <classes>
       <class name="com.thinkitiveAssignment.Assignment2.Assignment2"/>
       <class name="com.thinkitiveAssignment.Assignment1.Assignment1"/>
+      <class name="com.thinkitiveAssignment.Assignment1.test"/>
     </classes>
   </test> <!-- Thinkitive Assignment -->
 </suite> <!-- Suite -->

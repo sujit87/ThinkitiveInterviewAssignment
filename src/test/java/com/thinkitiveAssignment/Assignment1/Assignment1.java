@@ -67,5 +67,19 @@ public class Assignment1 {
 
 		}
 	}
+	
+	
+	@Test
+	public void testMultiplier2darrayResult() throws IOException
+	{
+		TextFileReader read = new TextFileReader();
+		DataMultiplier multiply = new DataMultiplier();
+		TextFileWriter write = new TextFileWriter("result3.txt");
+		String[][] fileData = read.readFileLineByLine2DArray("sample.txt");
+		
+		write.writeFile(multiply.multiplyData(fileData, multiplier));
+		write.closeFileWriting();
+		
+	}
 
 }

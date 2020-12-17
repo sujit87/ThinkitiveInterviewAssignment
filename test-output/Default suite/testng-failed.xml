@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.thinkitiveAssignment.Assignment2.Assignment2">
+      <class name="com.thinkitiveAssignment.Assignment1.test">
         <methods>
-          <include name="setup"/>
-          <include name="testAlibabaSite" invocation-numbers="0"/>
-          <include name="tearDown"/>
+          <include name="testArray"/>
         </methods>
-      </class> <!-- com.thinkitiveAssignment.Assignment2.Assignment2 -->
+      </class> <!-- com.thinkitiveAssignment.Assignment1.test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
