@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 327.217 s <<< FAILURE! - in TestSuite
-com.thinkitiveAssignment.Assignment2.Assignment2.testAlibabaSite[iPhone](1)  Time elapsed: 307.997 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='organic-gallery-offer-outter J-offer-wrapper']/div[@data-pid='1600100308461']/child::div[@class='organic-gallery-offer-section__title']/h4/div/p"}
-  (Session info: chrome=87.0.4280.88)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DELL-PC', ip: '192.168.228.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49435}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8069b5e80cadd83ad9094b715a0b8f47
-*** Element info: {Using=xpath, value=//div[@class='organic-gallery-offer-outter J-offer-wrapper']/div[@data-pid='1600100308461']/child::div[@class='organic-gallery-offer-section__title']/h4/div/p}
-	at com.thinkitiveAssignment.Assignment2.Assignment2.testAlibabaSite(Assignment2.java:47)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 351.569 s - in TestSuite

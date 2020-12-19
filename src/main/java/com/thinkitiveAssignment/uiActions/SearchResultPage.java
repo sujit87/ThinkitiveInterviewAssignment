@@ -76,8 +76,13 @@ public class SearchResultPage extends TestBase{
 
 	public String getTextBelowProductTitle()
 	{
+		String textBelowTitle;
 		System.out.println("Fetching: Text Below Product Title");
-		String textBelowTitle = driver.findElement(By.xpath("//div[@class='organic-gallery-offer-outter J-offer-wrapper']/div[@data-pid='"+productID+"']/child::div[@class='organic-gallery-offer-section__title']/h4/div/p")).getText();
+		try {
+			textBelowTitle = driver.findElement(By.xpath("//div[@class='organic-gallery-offer-outter J-offer-wrapper']/div[@data-pid='"+productID+"']/child::div[@class='organic-gallery-offer-section__title']/h4/div/p")).getText();
+		} catch (Exception e) {
+			textBelowTitle = "N/A";
+		}
 		return textBelowTitle;
 	}
 
